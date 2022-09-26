@@ -1,0 +1,27 @@
+.shop{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding-left: 120px;
+    position: relative;
+}
+.order-container{
+    background: #f7d07e;
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    width: 18%;
+    top: 80px;  
+}
+.order-container p{
+    text-align: center;
+}
+.order-container h4{
+    text-align: center;
+    margin-top: 20px;
+}
+.product-container{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 45px;
+}
